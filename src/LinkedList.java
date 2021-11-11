@@ -4,6 +4,7 @@ class Element<T2>{
     Element<T2> next;
 
     public Element(int i, T2 value) {
+        // TODO: Remove index and dependencies.
         this.index = i;
         this.value = value;
         this.next = null;
